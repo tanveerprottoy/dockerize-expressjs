@@ -1,4 +1,4 @@
-FROM node:lts
+FROM node:lts-alpine
 
 # create app dir
 WORKDIR /src/app
